@@ -1,5 +1,5 @@
-import { Component, VERSION, OnInit } from '@angular/core';
-import { CdkDragDrop, moveItemInArray, transferArrayItem, CdkDropList } from '@angular/cdk/drag-drop';
+import { Component, OnInit } from '@angular/core';
+import { CdkDragDrop, moveItemInArray, transferArrayItem } from '@angular/cdk/drag-drop';
 import {DatePipe} from '@angular/common';
 import { Board } from './models/board.model';
 import { Column } from './models/column.model';
