@@ -70,10 +70,7 @@
 .tasks-container.cdk-drop-list-dragging .task:not(.cdk-drag-placeholder) {
   transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
 }
-#s-cover {
-  width: 1px;
-  padding-left: 35px;
-}
+
 button {
   position: relative;
   display: block;
@@ -137,14 +134,6 @@ button span:after {
   line-height: 5px;
   border-radius: 4px;
 }
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-}
-.header a:hover {
-  background-color:white;
-  color: black;
-}
 .header a.active {
   background-color: rgb(27, 202, 100);
   color: white;
@@ -182,4 +171,3 @@ button span:after {
   position: relative;
   top:-5px
 }
-
